@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.2">
+    <description></description>
+    <groupId>215e3aa3-016a-1000-7b7b-6ed986168403</groupId>
+    <name>buildtable</name>
+    <snippet>
+        <connections>
+            <id>054e4a73-e403-3275-0000-000000000000</id>
+            <parentGroupId>1bf6f86c-78a6-3537-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>1bf6f86c-78a6-3537-0000-000000000000</groupId>
+                <id>da14df0c-db06-3f0a-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>1bf6f86c-78a6-3537-0000-000000000000</groupId>
+                <id>9a8577bf-f8dc-3402-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>4d59abe7-9ef4-3c47-0000-000000000000</id>
+            <parentGroupId>1bf6f86c-78a6-3537-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>1bf6f86c-78a6-3537-0000-000000000000</groupId>
+                <id>9a8577bf-f8dc-3402-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>1bf6f86c-78a6-3537-0000-000000000000</groupId>
+                <id>93fff649-0401-3f5b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <processors>
+            <id>93fff649-0401-3f5b-0000-000000000000</id>
+            <parentGroupId>1bf6f86c-78a6-3537-0000-000000000000</parentGroupId>
+            <position>
+                <x>5.7598535156248545</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.9.2</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>File Size</key>
+                        <value>
+                            <name>File Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>
+                            <name>Data Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>
+                            <name>Unique FlowFiles</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                        <value>
+                            <name>generate-ff-custom-text</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>
+                            <name>character-set</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>File Size</key>
+                        <value>2048B</value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Data Format</key>
+                        <value>Text</value>
+                    </entry>
+                    <entry>
+                        <key>Unique FlowFiles</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>generate-ff-custom-text</key>
+                        <value>{
+  "title" : "Bhutan - Level 1: Exercise Normal Precautions",
+  "pubDate" : "Fri, 25 Jan 2019",
+  "link" : "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/bhutan-travel-advisory.html",
+  "guid" : "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/bhutan-travel-advisory.html",
+  "identifier" : "\nBT",
+  "description" : "\n&lt;p&gt;Exercise normal precautions in Bhutan.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Read the Safety and Security section on the&amp;nbsp;&lt;a href=\"https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Bhutan.html\"&gt;country information page&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;If you decide to travel to Bhutan:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Enroll in the &lt;a href=\"https://step.state.gov/step/\"&gt;Smart Traveler Enrollment Program&lt;/a&gt; (&lt;a href=\"https://step.state.gov/step/\"&gt;STEP&lt;/a&gt;) to receive Alerts and make it easier to locate you in an emergency.&lt;/li&gt;\n&lt;li&gt;Follow the Department of State on &lt;a href=\"http://www.facebook.com/travelgov\"&gt;Facebook&lt;/a&gt; and &lt;a href=\"http://www.twitter.com/travelgov\"&gt;Twitter&lt;/a&gt;.&lt;/li&gt;\n&lt;li&gt;Review the&amp;nbsp;&lt;a href=\"https://www.osac.gov/Pages/ContentReportDetails.aspx?cid=25872\" adhocenable=\"false\"&gt;Crime and Safety Report&lt;/a&gt;&amp;nbsp;for Bhutan.&lt;/li&gt;\n&lt;li&gt;U.S. citizens who travel abroad should always have a contingency plan for emergency situations. Review the &lt;a href=\"https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-checklist.html\"&gt;Traveler&amp;#8217;s Checklist&lt;/a&gt;.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;i&gt;&lt;b&gt;Last Update: Reissued after periodic review without changes.&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;\n"
+}</value>
+                    </entry>
+                    <entry>
+                        <key>character-set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>13330 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>GenerateFlowFile</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
+        </processors>
+        <processors>
+            <id>9a8577bf-f8dc-3402-0000-000000000000</id>
+            <parentGroupId>1bf6f86c-78a6-3537-0000-000000000000</parentGroupId>
+            <position>
+                <x>1.439775390624618</x>
+                <y>253.4400683593749</y>
+            </position>
+            <bundle>
+                <artifact>nifi-convertjsontoddl-nar</artifact>
+                <group>com.dataflowdeveloper</group>
+                <version>1.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>TABLE_TYPE</key>
+                        <value>
+                            <name>TABLE_TYPE</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>TABLE_NAME</key>
+                        <value>
+                            <name>TABLE_NAME</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>TABLE_TYPE</key>
+                        <value>Oracle</value>
+                    </entry>
+                    <entry>
+                        <key>TABLE_NAME</key>
+                        <value>travelwarning</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>JsonToDDLProcessor</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>com.dataflowdeveloper.processors.convertjsontoddl.JsonToDDLProcessor</type>
+        </processors>
+        <processors>
+            <id>da14df0c-db06-3f0a-0000-000000000000</id>
+            <parentGroupId>1bf6f86c-78a6-3537-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>499.67999511718745</y>
+            </position>
+            <bundle>
+                <artifact>nifi-update-attribute-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.9.2</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Delete Attributes Expression</key>
+                        <value>
+                            <name>Delete Attributes Expression</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Store State</key>
+                        <value>
+                            <name>Store State</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Stateful Variables Initial Value</key>
+                        <value>
+                            <name>Stateful Variables Initial Value</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>canonical-value-lookup-cache-size</key>
+                        <value>
+                            <name>canonical-value-lookup-cache-size</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Delete Attributes Expression</key>
+                    </entry>
+                    <entry>
+                        <key>Store State</key>
+                        <value>Do not store state</value>
+                    </entry>
+                    <entry>
+                        <key>Stateful Variables Initial Value</key>
+                    </entry>
+                    <entry>
+                        <key>canonical-value-lookup-cache-size</key>
+                        <value>100</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>UpdateAttribute</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+        </processors>
+    </snippet>
+    <timestamp>06/15/2019 12:54:10 EDT</timestamp>
+</template>
