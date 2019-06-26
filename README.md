@@ -7,7 +7,18 @@
 Any Data, Anywhere, Anytime
 
 
-![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/putty.png)
+![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/TableAttributes.png)
+
+![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/listTablesScope.png)
+
+![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/controllerNiFi.png)
+
+![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/nifidwflow.png)
+
+![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/snowflakesql.png)
+
+![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/insertSnow.png)
+
 
 
 ## XML, JSON, CSV, Kafka, Drones, JMS, Databases, MongoDB, REST, Cryptocurrency, ...
