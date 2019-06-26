@@ -6,6 +6,7 @@
 
 Any Data, Anywhere, Anytime
 
+With Apache NiFi you can populate Cloud Data Warehouses with ease directly through JDBC or to S3 buckets from sources including email, REST, Logs, Databases, NoSQL stores, Hadoop, XML, PDF, Word, AVRO, JSON, CSV, Text, Syslog and more.
 
 ![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/TableAttributes.png)
 
@@ -15,10 +16,10 @@ Any Data, Anywhere, Anytime
 
 ![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/nifidwflow.png)
 
-![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/snowflakesql.png)
-
 ![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/insertSnow.png)
 
+
+![Image](https://raw.githubusercontent.com/tspannhw/clouddatawarehouse/master/snowflakesql.png)
 
 
 ## XML, JSON, CSV, Kafka, Drones, JMS, Databases, MongoDB, REST, Cryptocurrency, ...
